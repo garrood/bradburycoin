@@ -11,9 +11,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(QRK);
-    unitlist.append(cQRK);
-    unitlist.append(mQRK);
+    unitlist.append(BRC);
+    unitlist.append(cBRC);
+    unitlist.append(mBRC);
     return unitlist;
 }
 
@@ -21,9 +21,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case QRK:
-    case cQRK:
-    case mQRK:
+    case BRC:
+    case cBRC:
+    case mBRC:
         return true;
     default:
         return false;
@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case QRK: return QString("QRK");
-    case cQRK: return QString("cQRK");
-    case mQRK: return QString("mQRK");
+    case BRC: return QString("BRC");
+    case cBRC: return QString("cBRC");
+    case mBRC: return QString("mBRC");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case QRK: return QString("Bradburys");
-    case cQRK: return QString("Centum-Bradburys (1 / 100)");
-    case mQRK: return QString("Milli-Bradburys (1 / 1,000)");
+    case BRC: return QString("Bradburys");
+    case cBRC: return QString("Centum-Bradburys (1 / 100)");
+    case mBRC: return QString("Milli-Bradburys (1 / 1,000)");
     default: return QString("???");
     }
 }
@@ -56,9 +56,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case QRK:  return 100000;
-    case cQRK: return 1000;
-    case mQRK: return 100;
+    case BRC:  return 100000;
+    case cBRC: return 1000;
+    case mBRC: return 100;
     default:   return 100000;
     }
 }
@@ -67,9 +67,9 @@ int BitcoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case QRK: return 17; // trillions (# digits, without commas)
-    case cQRK: return 19; // *100
-    case mQRK: return 20; // *1,000
+    case BRC: return 17; // trillions (# digits, without commas)
+    case cBRC: return 19; // *100
+    case mBRC: return 20; // *1,000
     default: return 0;
     }
 }
@@ -78,9 +78,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case QRK: return 5;
-    case cQRK: return 3;
-    case mQRK: return 2;
+    case BRC: return 5;
+    case cBRC: return 3;
+    case mBRC: return 2;
     default: return 0;
     }
 }

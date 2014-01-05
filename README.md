@@ -24,6 +24,9 @@ Setup
 You need the Qt4 run-time libraries to run Bradburycoin-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
 
+Ports:  18960 for RPC and 18961 for P2P
+		18950 for RPC and 18951 for P2P (testports)
+
 
 Other Pages
 ---------------------

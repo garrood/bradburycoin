@@ -1,4 +1,4 @@
-Name Quark
+Name Bradbury
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,7 +6,7 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.8.3.6
-!define COMPANY "Quark project"
+!define COMPANY "Bradbury project"
 !define URL http://www.qrk.cc/
 
 # MUI Symbol Definitions
@@ -19,7 +19,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER Quark
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER Bradbury
 !define MUI_FINISHPAGE_RUN $INSTDIR\bradburycoin-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
@@ -45,14 +45,14 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile quark-0.8.3r6-win32-setup.exe
-InstallDir $PROGRAMFILES\Quark
+OutFile bradbury-0.8.3r6-win32-setup.exe
+InstallDir $PROGRAMFILES\Bradbury
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 0.8.3.6
-VIAddVersionKey ProductName Quark
+VIAddVersionKey ProductName Bradbury
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -83,8 +83,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Quark.lnk" $INSTDIR\bradburycoin-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall Quark.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Bradbury.lnk" $INSTDIR\bradburycoin-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall Bradbury.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -94,10 +94,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "quark" "URL Protocol" ""
-    WriteRegStr HKCR "quark" "" "URL:Bradburycoin"
-    WriteRegStr HKCR "quark\DefaultIcon" "" $INSTDIR\bradburycoin-qt.exe
-    WriteRegStr HKCR "quark\shell\open\command" "" '"$INSTDIR\bradburycoin-qt.exe" "%1"'
+    WriteRegStr HKCR "bradbury" "URL Protocol" ""
+    WriteRegStr HKCR "bradbury" "" "URL:Bradburycoin"
+    WriteRegStr HKCR "bradbury\DefaultIcon" "" $INSTDIR\bradburycoin-qt.exe
+    WriteRegStr HKCR "bradbury\shell\open\command" "" '"$INSTDIR\bradburycoin-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -125,9 +125,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall Quark.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Quark.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Quark.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall Bradbury.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Bradbury.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Bradbury.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -135,7 +135,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "quark"
+    DeleteRegKey HKCR "bradbury"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

@@ -2216,12 +2216,12 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Specifica configurationis plicam (praedefinitum: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: bradburycoin.conf)</source>
+        <translation>Specifica configurationis plicam (praedefinitum: bradburycoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: quarkcoind.pid)</source>
+        <source>Specify pid file (default: bradburycoind.pid)</source>
         <translation>Specifica pid plicam (praedefinitum: quark.pid)</translation>
     </message>
     <message>

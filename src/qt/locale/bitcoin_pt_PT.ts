@@ -2217,13 +2217,13 @@ Endereço: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Especificar ficheiro de configuração (por defeito: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: bradburycoin.conf)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: bradburycoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: quarkcoind.pid)</source>
-        <translation>Especificar ficheiro pid (por defeito: quarkcoind.pid)</translation>
+        <source>Specify pid file (default: bradburycoind.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: bradburycoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

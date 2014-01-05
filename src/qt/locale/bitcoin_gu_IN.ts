@@ -2208,12 +2208,12 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
+        <source>Specify configuration file (default: bradburycoin.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: quarkcoind.pid)</source>
+        <source>Specify pid file (default: bradburycoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>

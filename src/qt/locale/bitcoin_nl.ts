@@ -2217,14 +2217,14 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: quarkcoin.conf)
+        <source>Specify configuration file (default: bradburycoin.conf)</source>
+        <translation>Specificeer configuratiebestand (standaard: bradburycoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: quarkcoind.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: quarkcoind.pid)
+        <source>Specify pid file (default: bradburycoind.pid)</source>
+        <translation>Specificeer pid-bestand (standaard: bradburycoind.pid)
 </translation>
     </message>
     <message>

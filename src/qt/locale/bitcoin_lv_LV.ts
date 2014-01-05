@@ -2212,13 +2212,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: bradburycoin.conf)</source>
+        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: bradburycoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: quarkcoind.pid)</source>
-        <translation>Norādiet pid failu (pēc noklusēšanas: quarkcoind.pid)</translation>
+        <source>Specify pid file (default: bradburycoind.pid)</source>
+        <translation>Norādiet pid failu (pēc noklusēšanas: bradburycoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

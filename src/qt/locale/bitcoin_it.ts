@@ -249,7 +249,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUARK&lt;/b&gt;!</source>
-        <translation>Attenzione: se si cifra il portamonete e si perde la frase d&apos;ordine, &lt;b&gt;SI PERDERANNO TUTTI I PROPRI QUARKCOIN&lt;/b&gt;!</translation>
+        <translation>Attenzione: se si cifra il portamonete e si perde la frase d&apos;ordine, &lt;b&gt;SI PERDERANNO TUTTI I PROPRI BRADBURYCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2223,14 +2223,14 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Specifica il file di configurazione (di default: quarkcoin.conf)
+        <source>Specify configuration file (default: bradburycoin.conf)</source>
+        <translation>Specifica il file di configurazione (di default: bradburycoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: quarkcoind.pid)</source>
-        <translation>Specifica il file pid (default: quarkcoind.pid)
+        <source>Specify pid file (default: bradburycoind.pid)</source>
+        <translation>Specifica il file pid (default: bradburycoind.pid)
 </translation>
     </message>
     <message>

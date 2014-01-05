@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2013 Quarkcoin developers
+// Copyright (c) 2013 Bradburycoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1210,8 +1210,8 @@ static const char *strMainNetDNSSeed[][2] = {
     {"seed4.quarkinvest.info", "seed4.quarkinvest.info"},
     {"seed5.quarkinvest.info", "seed5.quarkinvest.info"},
     {"seed6.quarkinvest.info", "seed6.quarkinvest.info"},
-    {"quarkcoin.no-ip.biz", "quarkcoin.no-ip.biz"},
-    {"quarkcoin.mooo.com", "quarkcoin.mooo.com"},
+    {"bradburycoin.no-ip.biz", "bradburycoin.no-ip.biz"},
+    {"bradburycoin.mooo.com", "bradburycoin.mooo.com"},
     {"qrk.ignorelist.com", "qrk.ignorelist.com"},
     {"qrk.redirectme.net", "qrk.redirectme.net"},
     {"qrk.no-ip.biz", "qrk.no-ip.biz"},

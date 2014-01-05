@@ -2222,14 +2222,14 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>指定配置文件 (默认为 quarkcoin.conf)
+        <source>Specify configuration file (default: bradburycoin.conf)</source>
+        <translation>指定配置文件 (默认为 bradburycoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: quarkcoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 quarkcoind.pid)
+        <source>Specify pid file (default: bradburycoind.pid)</source>
+        <translation>指定 pid 文件 (默认为 bradburycoind.pid)
 </translation>
     </message>
     <message>

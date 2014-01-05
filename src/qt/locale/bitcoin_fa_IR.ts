@@ -1259,7 +1259,7 @@ Address: %4
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Quark RPC console.</source>
-        <translation>به کنسول آر.پی.سی. QUARKCOIN خوش آمدید</translation>
+        <translation>به کنسول آر.پی.سی. BRADBURYCOIN خوش آمدید</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2211,13 +2211,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>فایل پیکربندیِ را مشخص کنید (پیش فرض: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: bradburycoin.conf)</source>
+        <translation>فایل پیکربندیِ را مشخص کنید (پیش فرض: bradburycoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: quarkcoind.pid)</source>
-        <translation>فایل pid  را مشخص کنید (پیش فرض: quarkcoind.pid)</translation>
+        <source>Specify pid file (default: bradburycoind.pid)</source>
+        <translation>فایل pid  را مشخص کنید (پیش فرض: bradburycoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
